@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+    test:
+        network_mode: host
+        image: rfm_testing
+        shm_size: "256M"
+        environment:
+            USERNAME: robotframework
+        volumes: [
+           "./test_suites:/test_suites",
+           "./scripts:/scripts",
+           "./reports:/reports",
+           "./resources:/resources",
+           "./page_object:/page_object",
+           "./custom_libraries:/custom_libraries"
+        ]
