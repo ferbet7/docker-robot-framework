@@ -14,6 +14,8 @@ Robot Framework running on docker.
 - RFM - Custom Libraries
 - RFM - Page Object Testing Design
 
+Run your tests with docker and forget about configuration!
+
 
 ## Deployment
 
@@ -32,5 +34,4 @@ And after run
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
